@@ -3,11 +3,11 @@
  sudo yum update -y
 ```
  ## Install Apache
- 
+ ```
  sudo dnf install -y httpd
  sudo systemctl start httpd
  sudo systemctl enable httpd
- 
+ ```
  ## Install MariaDB (MySQL)Install MariaDB (MySQL)
  
  sudo dnf install -y mariadb105-server
