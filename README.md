@@ -1,7 +1,7 @@
 ## Update the System
-'''
+```
  sudo yum update -y
- '''
+```
  ## Install Apache
  
  sudo dnf install -y httpd
